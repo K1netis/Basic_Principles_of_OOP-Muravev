@@ -6,7 +6,7 @@ class RoboCat:
         self.sound = sound
         self.color = color
     def play_sound(self):
-        print(f"Мой робокот говор {self.sound}")
+        print(f"Мой робокот говорит {self.sound}")
 
 class AngryRoboCat(RoboCat):
     def __init__(self, speed, hp, color):
